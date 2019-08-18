@@ -25,5 +25,5 @@ yarn run test
 yarn run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Reference
+See [Reference](https://reactjs.org/docs/getting-started.html).
