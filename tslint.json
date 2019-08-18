@@ -1,0 +1,27 @@
+{
+  "defaultSeverity": "warning",
+  "extends": [
+    "tslint-plugin-prettier",
+    "tslint-react"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**"
+    ]
+  },
+  "rules": {
+    "prettier": true,
+    "no-console": true,
+    "jsx-alignment": true,
+    "jsx-no-multiline-js": true,
+    "jsx-no-string-ref": true,
+    "jsx-self-close": true,
+    "jsx-wrap-multiline": true,
+    "import-name": false,
+    "no-duplicate-variable": true,
+    "no-unused-variable": true
+  },
+  "rulesDirectory": [
+    "tslint-plugin-prettier"
+  ]
+}
